@@ -23,10 +23,10 @@ class TwitterAPIs:
 
     def __init__(self):
         ## twitter api key setting
-        self.twitter_consumer_key = "25nwDEFygPN4JrONW52ZRpbkj"
-        self.twitter_consumer_secret = "6rcUXU84Mk4Bi4Gp2HTyXR8uJOLDapkKvLvyiNCxNRP7075drq"
-        self.twitter_access_token = "1067071463948148736-C3uNvuBgvZ8p83QE8hDv4kONZM593k"
-        self.twitter_access_secret = "jBaKhsuXhj1C3SDHFWozubyXoEDQPqw8oWFqaSD5Qi31M"
+        self.twitter_consumer_key = ""
+        self.twitter_consumer_secret = ""
+        self.twitter_access_token = ""
+        self.twitter_access_secret = ""
 
         self.twitter_api = twitter.Api(consumer_key=self.twitter_consumer_key, consumer_secret=self.twitter_consumer_secret,
                                   access_token_key=self.twitter_access_token, access_token_secret=self.twitter_access_secret)
