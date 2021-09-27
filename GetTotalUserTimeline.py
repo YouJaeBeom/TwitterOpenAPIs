@@ -15,10 +15,10 @@ class TwitterAPIs:
     """
 
     def __init__(self):
-        self.consumer_key = '25nwDEFygPN4JrONW52ZRpbkj'
-        self.consumer_secret = '6rcUXU84Mk4Bi4Gp2HTyXR8uJOLDapkKvLvyiNCxNRP7075drq'
-        self.access_token = '1067071463948148736-C3uNvuBgvZ8p83QE8hDv4kONZM593k'
-        self.access_token_secret= 'jBaKhsuXhj1C3SDHFWozubyXoEDQPqw8oWFqaSD5Qi31M'
+        self.consumer_key = ''
+        self.consumer_secret = ''
+        self.access_token = ''
+        self.access_token_secret= ''
 
         self.twitter = OAuth1Session(self.consumer_key, self.consumer_secret, self.access_token, self.access_token_secret)
 
